@@ -14,8 +14,8 @@ then
 2. bin/kafka-server-start.sh config/server.properties
 
 For Windows
-1. bin\windows\zookeeper-server-start.bat ..\..\config\zookeeper.properties
+1. bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 then
-2. bin\windows\kafka-server-start.bat ..\..\config\server.properties
+2. bin\windows\kafka-server-start.bat config\server.properties
 
 More information: https://kafka.apache.org/quickstart
