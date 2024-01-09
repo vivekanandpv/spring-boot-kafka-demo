@@ -1,0 +1,19 @@
+Link: https://kafka.apache.org/downloads
+Download binary (scala latest version)
+This is a tgz file, and you need additional unzipping utility in Windows such as 7zip
+Download Apache Kafka and unzip into your home folder
+
+
+The directory needs to be renamed as kafka (too long a name)
+
+Open the PowerShell or terminal in the kafka directory
+
+For macOS or Linux
+1. bin/zookeeper-server-start.sh config/zookeeper.properties
+then
+2. bin/kafka-server-start.sh config/server.properties
+
+For Windows
+1. bin\windows\zookeeper-server-start.bat ..\..\config\zookeeper.properties
+then
+2. bin\windows\kafka-server-start.bat ..\..\config\server.properties
